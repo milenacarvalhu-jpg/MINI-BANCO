@@ -102,7 +102,7 @@ public class MiniBanco {
 
                 // System.out.println("[Depositar - em breve]");
             } else if (opcao == 2) {
-                System.out.print("Valor a depositar: R$");
+                System.out.print("Valor a sacar: R$");
                 double valorsaque = scanner.nextDouble();
 
                 if (!valorEhValido(valorsaque)) {
